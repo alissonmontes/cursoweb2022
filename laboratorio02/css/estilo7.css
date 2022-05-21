@@ -1,8 +1,7 @@
 .contenedor{
     width: 1280px;
     height: 800px;
-    background-color: #1EAAF1;
-    margin: auto;
+    background-color: #1eaaf1;
 }
 header{
     width: 1280px;
@@ -17,7 +16,7 @@ nav{
 main{
     width: 1030px;
     height: 600px;
-    background-color: #FEE94F;
+    background-color: #FEE94E;
     margin-left: 250px;
     margin-top: -600px;
 }

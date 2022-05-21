@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+
+body{
+    background-color: bisque;
+}
+.contendor{
+    background-color: white;
+    margin: auto;
+}
+.fuente1{
+    font-family: 'Playfair Display', serif;
+}
+.fuente2{
+    font-style: italic;
+}
+.fuente3{
+    font-style: oblique;
+}
+.fuente4{
+    font-style: normal;
+}
+.fuente5{
+    font-style: bold;
+}
+.fuente6{
+    font-style: bolder;
+}
+.fuente7{
+    font-style: small;
+}
+.fuente8{
+    font-variant: small-caps;
+}
+.fuente9{
+    font-size: 25px;
+}
+.fuente10{
+    font-variant: normal;
+}
+@font-face {
+    font-family:"amaticSC";
+    src: url("/fonts/AmaticSC-Bold.ttf");
+}
+@font-face {
+    font-family:"Grapenuts";
+    src: url("/fonts/GrapeNuts-Regular.ttf");
+}
+@font-face {
+    font-family:"BATMAN";
+    src: url("/fonts/BATMAN.ttf");
+}
+@font-face {
+    font-family:"Megatron";
+    src: url("/fonts/Megatron.otf");
+}
+.fuente11{
+    font-family:"amaticSC";
+}
+.fuente12{
+    font-family:"Grapenuts";
+}
+.fuente13{
+    font-family:"BATMAN";
+}
+.fuente14{
+    font-family:"Megatron";
+}

@@ -2,14 +2,15 @@
     background-color: crimson;
 }
 .titulo{
-    color: black;
+    color:black;
     background-color: white;
+
 }
-subtitulo{
+.subtitulo{
     color: yellow;
-    font-style: italic;
+    font-style: italic
 }
-.parrafo{ 
+.parrafo{
     color: aqua;
     font-weight: bolder;
 }
