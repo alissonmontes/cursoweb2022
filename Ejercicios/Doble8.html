@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    //Calcular el sueldo de un trabajador conociendo el número de horas trabajadas y su tarifa horaria, sabiendo que se debe aumentar el 20 % del sueldo por bonificación familiar si este es mayor de S/. 2400 nuevos soles, y 10 % en caso contrario. Mostrar el sueldo y el aumento respectivo. 
+
+    var ht=0, th=0, stot=0, vari=0;
+
+ht=parseFloat(prompt("cuantas horas trabajas:"));
+th=parseFloat(prompt("cuanto te pagan por hora:"));
+
+stot=th*ht;
+vari=stot;
+
+if(vari>2400){
+    vari="se te dara un bono de 20% de su sueldo total por bonificacion familiar"
+}else{
+    vari="se te dara un bono de 10% de su sueldo total por bonificacion familiar"
+}
+document.write(""+vari+"<br>");
+
+</script>
+<body>
+</body>
+</html>

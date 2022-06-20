@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-15</title>
+</head>
+<script type="text/javascript">
+    //La entidad Financiera MHM PRESTAMOS TODITITO, compromete a sus clientes a depositar una cuota mensual durante un año. Al finalizar este periodo, dicha entidad le hace un préstamo hasta 5 veces el monto ahorrado y le cobra el interés del 2% mensual; calcular el total ahorrado y el total de préstamo. 
+    var cm=0, pres=0, ctot=0 ,pres2=0, pres3=0, res=0, porc=0, porc2=0, porc3=0;
+
+cm=parseFloat(prompt("de cuanto sera tu cuota mensual:"));
+pres2=parseFloat(prompt("de cuanto sera tu prestamo:"));
+pres=parseFloat(prompt("de cuantos meses sera tu prestamo:"));
+
+ctot=cm*12;
+porc=(cm*2)/100;
+porc2=cm-porc;
+porc3=(porc2*12)*5;
+res=ctot*5
+
+
+if(res>pres2){
+    res="el prestamo se efectua con exito"
+}
+else{
+    res="tu solicitud de prestamo supera la cantidad que se puede ofrecer"
+}
+
+document.write(res+"<br>");
+document.write("El total de monto ahorrado es:"+ctot+"<br>");
+document.write("Monto total del prestamo es:"+porc3+"<br>");
+</script>
+<body>
+</body>
+</html>                                                              

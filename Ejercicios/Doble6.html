@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Ejercicio 21</title>
+    <script type="text/Javascript">
+        //Dado la duración (en minutos) de una llamada telefónica, calcular su costo, de la siguiente manera: Hasta 5 min el costo es 0.90.Por encima de 5 min el costo es 0.90+0.20 por cada minuto adicional a los 5 primeros min.  
+
+        var ml=0, mina=0, tot=0;
+
+        ml=parseInt(prompt("Ingresa la cantidad de minutos en la llamada: "));
+        
+        if (ml<=5){
+            tot= ml * 0.9;
+        }else{
+            mina=ml-5
+            tot=4.5+(mina*0.20);
+        }
+        
+        document.write("Le cobrarán: "+tot+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
